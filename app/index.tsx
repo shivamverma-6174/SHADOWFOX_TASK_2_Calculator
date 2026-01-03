@@ -1,0 +1,16 @@
+import Calculator from "@/Components/Calculator";
+import { Stack } from "expo-router";
+
+export default function Index() {
+  return (
+    <>
+    <Stack.Screen
+      options={{
+        title: "Calculator",
+        headerTitleAlign: "center",
+      }}
+    />
+    <Calculator />
+    </>
+  );
+}
